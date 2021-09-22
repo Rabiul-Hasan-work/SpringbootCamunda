@@ -1,0 +1,13 @@
+#spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+#camunda.bpm.database.type: postgres
+#spring.datasource.url: jdbc:postgresql://localhost:5432/camunda
+#spring.datasource.username: postgres
+#spring.datasource.password: paimon
+#pring.datasource.driver-class-name: org.postgresql.Driver
+#camunda.bpm.database.schema-update: create-drop
+#camunda.bpm.database.table-prefix: camunda.
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo
